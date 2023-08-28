@@ -85,7 +85,6 @@
 .cta-menu-button:hover > span{
   position: relative;
   color: #fff;
-  
 }
 
 .cta-menu-button::before {
@@ -157,4 +156,125 @@
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
+}
+
+
+/*Sections definitions structues*/
+.section {
+  margin: 13.5rem 0;
+}
+
+.heading-1 {
+  font-size: 3.6rem;
+  font-weight: bold;
+}
+
+.text {
+  font-size: 1.8rem;
+  line-height: 1.5;
+}
+
+/*Service section*/
+
+.section-1 {
+  display: flex;
+  justify-content: center;
+}
+
+.inner-section-1-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 5rem 0;
+  width: 80%;
+}
+
+.inner-section-1-container-header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.inner-section-1-container-bottom {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin: 2rem 0;
+}
+
+.service-item-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 30%;
+  padding: 2rem 2rem;
+  border-radius: 1rem;
+}
+
+.service-item--top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem 0;
+}
+
+.service-item-card--icon-container {
+  width: 10rem;
+  height: 10rem;
+  border-radius: 1rem;
+  background-color: #363636;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service-item-card-icon {
+  width: 7.2rem;
+  height: 7.2rem;
+  object-fit: cover;
+}
+.service-name {
+  display: inline-block;
+  font-size: 1.6rem;
+  text-align: center;
+  width: 60%;
+  opacity: 0.5;
+}
+.service-item--top::after {
+  content: "";
+  width: 90%;
+  height: 0.5rem;
+  border-radius: 1rem;
+  background-color: #1E1E1E;
+  opacity: 0.28;
+}
+.service-item--bottom {
+  margin-top: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.service-item-description {
+  font-size: 1.5rem;
+  color: #1E1E1E;
+  opacity: 0.28;
+  text-align: center;
+  line-height: 1.5;
+}
+
+.service-item-card:hover .service-name {
+  opacity: 1;
+}
+
+.service-item-card:hover .service-item--top::after {
+  background-color: #076CF3;
+  opacity: 1;
+}
+
+.service-item-card:hover .service-item-card--icon-container  {
+  background-color: #076CF3;
+}
+
+.service-item-card:hover .service-item-description {
+  opacity: 1;
 }
