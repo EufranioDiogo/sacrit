@@ -54,6 +54,10 @@
   font-weight: 500;
   font-size: 1.6rem;
   text-decoration: none;
+  transition: 0.5s;
+}
+.menu-list--item-link:hover {
+  font-weight: bold;
 }
 
 .menu-list--item-link_active {
@@ -61,6 +65,8 @@
 }
 
 .cta-menu-button {
+  position: relative;
+  display: inline-block;
   padding: 1.5rem 3rem;
   text-align: center;
   background-color: #fff;
@@ -69,6 +75,35 @@
   color: #076CF3;
   text-decoration: none;
   font-weight: 500;
+  transition: 1s;
+  overflow: hidden;
+}
+.cta-menu-button > span {
+  z-index: 1;
+  transition: 1s;
+}
+.cta-menu-button:hover > span{
+  position: relative;
+  color: #fff;
+  
+}
+
+.cta-menu-button::before {
+  content: "";
+  display: block;
+  position: absolute;
+  height: 100%;
+  width: 0%;
+  top: 0;
+  left: 0;
+  background-color: #076CF3;
+  transition: 1s;
+  z-index: 0;
+}
+
+
+.cta-menu-button:hover::before{
+  width: 100%;
 }
 
 .header::after {
@@ -113,7 +148,7 @@
 }
 
 .header-central-cta-button {
-  margin-top: 8.8rem;
+  margin-top: 6.8rem;
   padding: 2.5rem 5rem;
   color: #fff;
   border-radius: 1rem;
