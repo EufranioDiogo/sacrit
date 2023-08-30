@@ -132,6 +132,10 @@
   border-radius: 0 2rem 2rem 0;
   position: relative;
   overflow: hidden;
+  background-image: url("../assets/images/pexels-jah-nomad-17220238.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 .inner-section-2-container--left-img, .inner-section-2-container--left::after {
@@ -150,6 +154,27 @@
 
 .inner-section-2-container--left-img {
   object-fit: cover;
+}
+
+.inner-section-2-container--left--content-container {
+  position: absolute;
+  bottom: 5%;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 90%;
+  color: white;
+  z-index: 2;
+}
+.inner-section-2-container--left--content-container-title {
+  margin-bottom: 1.4rem;
+  font-size: 2.2rem;
+}
+.inner-section-2-container--left--content-container-description {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  text-align: justify;
+  display: inline-block;
+  width: 100%;
 }
 
 .inner-section-2-container--right {
