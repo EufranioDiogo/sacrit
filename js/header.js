@@ -12,7 +12,6 @@ const headerSlide = [
     title: 'Soluções Inovadoras'
   }
 ]
-const imageHeader = document.querySelector('.header-cover-image');
 const contentHeader = document.querySelector('.header-content-container--text')
 let imageIndex = 0;
 
@@ -22,7 +21,6 @@ setInterval(() => {
     imageIndex = 0;
   }
 
-  imageHeader.src = headerSlide[imageIndex].image;
   contentHeader.innerHTML = headerSlide[imageIndex].title;
 
-}, 5000);
+}, 4000);

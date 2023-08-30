@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
   <head>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -9,8 +9,8 @@
     />
     <link rel="stylesheet" href="./css/universal.css" />
     <link rel="stylesheet" href="./css/index.css" />
-    <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/service_section.css">
+    <link rel="stylesheet" href="./css/header.css" />
+    <link rel="stylesheet" href="./css/service_section.css" />
 
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -37,13 +37,19 @@
             </a>
           </li>
           <li class="menu-list--item">
-            <a href="#" class="menu-list--item-link fixed-menu-item"> Nossos Clientes </a>
+            <a href="#" class="menu-list--item-link fixed-menu-item">
+              Nossos Clientes
+            </a>
           </li>
           <li class="menu-list--item">
-            <a href="#" class="menu-list--item-link fixed-menu-item"> Quem Somos </a>
+            <a href="#" class="menu-list--item-link fixed-menu-item">
+              Quem Somos
+            </a>
           </li>
           <li class="menu-list--item">
-            <a href="#" class="menu-list--item-link fixed-menu-item"> Onde Estamos </a>
+            <a href="#" class="menu-list--item-link fixed-menu-item">
+              Onde Estamos
+            </a>
           </li>
         </ul>
       </nav>
@@ -103,11 +109,23 @@
         <a href="#" class="header-central-cta-button"> Contactar </a>
       </div>
 
-      <img
-        class="header-cover-image"
-        src="./assets/images/pexels-tima-miroshnichenko-5685765.jpg"
-        alt="Cover image"
-      />
+      <div class="image-header-container">
+        <img
+          class="header-cover-image"
+          src="./assets/images/pexels-tima-miroshnichenko-5685765.jpg"
+          alt="Cover image"
+        />
+        <img
+          class="header-cover-image"
+          src="./assets/images/pexels-thisisengineering-3861967.jpg"
+          alt="Cover image"
+        />
+        <img
+          class="header-cover-image"
+          src="./assets/images/pexels-nick-kwan-2806518.jpg"
+          alt="Cover image"
+        />
+      </div>
     </header>
 
     <section class="section-1 what-we-do-section section">
@@ -185,22 +203,143 @@
       </div>
     </section>
 
-
-
     <section class="section-2 section">
-
       <div class="inner-section-2-container inner-section-2-container-1">
         <div class="inner-section-2-container--left">
-          <img class="inner-section-2-container--left-img" src="./assets/images/pexels-jah-nomad-17220238.jpg" alt="">
+          <img
+            class="inner-section-2-container--left-img"
+            src="./assets/images/pexels-jah-nomad-17220238.jpg"
+            alt=""
+          />
+          <div class="inner-section-2-container--left--content-container">
+            <h2 class="heading-2">
+            Roteamento
+            </h2>
+            <span></span>
+          </div>
         </div>
         <div class="inner-section-2-container--right">
-          
+          <div class="inner-section-2-container--content">
+            <div class="inner-section-2-container--content-top">
+              <span class="inner-section-2-container--content-top-label">
+                Melhoramos a sua <b>conexão</b>
+              </span>
+              <h1
+                class="heading-1 inner-section-2-container--content-top-title"
+              >
+                Redes de Computadores
+              </h1>
+            </div>
+
+            <div class="inner-section-2-container--control-container">
+              <div class="inner-section-2-container-control-container--itens">
+                <h3 class="heading-3">Networking</h3>
+                <ul class="inner-section-2-service-itens-list">
+                  <li
+                    class="inner-section-2--service-item inner-section-2--service-item inner-section-2--service-item_active"
+                  >
+                  <div class="inner-section-2--service-item--container ">
+                    <img
+                      src="./assets/icons/clarity_router-solid.svg"
+                      alt=""
+                      class="inner-section-2--service-item--img"
+                    />
+                    <span class="inner-section-2--service-item--text"
+                      >Roteamento</span
+                    >
+                  </div>
+                  </li>
+                  <li class="inner-section-2--service-item">
+                    <div class="inner-section-2--service-item--container">
+                      <img
+                        src="./assets/icons/mi_switch.svg"
+                        alt=""
+                        class="inner-section-2--service-item--img"
+                      />
+                      <span class="inner-section-2--service-item--text"
+                        >Switiching</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+              <div class="inner-section-2-container-control-container--itens">
+                <h3 class="heading-3">Data Center</h3>
+                <ul class="inner-section-2-service-itens-list">
+                  <li
+                    class="inner-section-2--service-item inner-section-2--service-item"
+                  >
+                  <div class="inner-section-2--service-item--container ">
+                    <img
+                      src="./assets/icons/bi_hdd-network-fill.svg"
+                      alt="Icon de Servidores"
+                      class="inner-section-2--service-item--img"
+                    />
+                    <span class="inner-section-2--service-item--text"
+                      >Servidores</span
+                    >
+                  </div>
+                  </li>
+                  <li class="inner-section-2--service-item">
+                    <div class="inner-section-2--service-item--container">
+                      <img
+                        src="./assets/icons/mdi_storage.svg"
+                        alt="Icon de Armazenamento"
+                        class="inner-section-2--service-item--img"
+                      />
+                      <span class="inner-section-2--service-item--text"
+                        >Armazenamento</span
+                      >
+                    </div>
+                  </li>
+
+                  <li class="inner-section-2--service-item">
+                    <div class="inner-section-2--service-item--container">
+                      <img
+                        src="./assets/icons/icon-park-solid_surveillance-cameras-two.svg"
+                        alt="Icon de CCTV (Camera de Vigilância)"
+                        class="inner-section-2--service-item--img"
+                      />
+                      <span class="inner-section-2--service-item--text"
+                        >CCTV</span
+                      >
+                    </div>
+                  </li>
+                </ul>
+              </div>
+
+
+              <button class="inner-section-2--see-more-itens">Mais</button>
+            </div>
+          </div>
         </div>
       </div>
-
+      
     </section>
 
     <script src="./js/header.js"></script>
     <script src="./js/menu.js"></script>
+    <script src="https://rawgit.com/ruyadorno/simple-slider/master/dist/simpleslider.min.js"></script>
+    <script>
+      /*simpleslider.getSlider({
+        container: document.querySelector(".image-header-container"),
+        duration: 10,
+        prop: "opacity",
+        unit: "",
+        init: 0,
+        show: 10,
+        end: 0,
+      });
+      simpleslider.getSlider({
+        container: document.querySelector(".header-content-container"),
+        duration: 10,
+        prop: "opacity",
+        unit: "",
+        init: 0,
+        show: 10,
+        end: 0,
+      });*/
+    </script>
   </body>
 </html>

@@ -1,5 +1,6 @@
 .header {
   display: flex;
+  position: relative;
   flex-direction: column;
   width: 98vw;
   height: 90vh;
@@ -118,6 +119,14 @@
   background: rgba(0, 0, 0, 0.452);
 }
 
+.image-header-container {
+  position: absolute !important;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 0;
+}
 .header-cover-image {
   position: absolute;
   top: 0;
@@ -143,6 +152,7 @@
   justify-content: center;
   align-items: center;
   height: 11.4rem;
+  width: 100%;
 }
 
 .header-content-container--text {
@@ -151,6 +161,12 @@
   text-align: center;
   line-height: 1.5;
   color: #fff;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
 }
 
 .header-central-cta-button {
