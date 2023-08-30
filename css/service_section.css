@@ -136,6 +136,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  transition: 1s;
 }
 
 .inner-section-2-container--left-img, .inner-section-2-container--left::after {
@@ -167,11 +168,11 @@
 }
 .inner-section-2-container--left--content-container-title {
   margin-bottom: 1.4rem;
-  font-size: 2.2rem;
+  font-size: 2.4rem;
 }
 .inner-section-2-container--left--content-container-description {
-  line-height: 1.5;
-  font-size: 1.6rem;
+  line-height: normal;
+  font-size: 2.0rem;
   text-align: justify;
   display: inline-block;
   width: 100%;
