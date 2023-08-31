@@ -191,7 +191,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 4rem 4rem;
+  padding: 2.5rem 4rem;
   background-color: #fff;
   z-index: 10;
   box-shadow: -1px -1px 4px 0px rgba(0, 0, 0, 0.25);
