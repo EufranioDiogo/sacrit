@@ -1,0 +1,90 @@
+.section-5 {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+.section-5::before {
+  content: '';
+  position: absolute;
+  right: -10%;
+  top: -5%;
+  background-color: #076CF3;
+  height: 70rem;
+  width: 70rem;
+  border-radius: 100rem;
+  z-index: -1;
+}
+
+.inner-about-us-container {
+  width: 90%;
+}
+
+.about-us-quote-container {
+  margin: 6.5rem 0;
+  display: flex;
+  flex-direction: column;
+  width: 65%;
+}
+
+.about-us-quote {
+  color: #000;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.75;
+  margin-bottom: 1rem;
+  font-size: 2.0rem;
+
+}
+
+.about-us-quote-author {
+  color: #505050;
+  font-size: 1.4rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.about-us-squad-container {
+  width: 85%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0 20rem;
+}
+
+.about-us-squad-element-container {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem 0;
+}
+
+.about-us-squad-element--img {
+  width: 20rem;
+  height: 20rem;
+  border-radius: 1rem;
+  border: 0.4rem solid #076CF3;
+  object-fit: cover;
+}
+
+.about-us-squad-element--info-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-us-squad-element--info-container--name {
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+
+.about-us-squad-element--info-container--role {
+  color: #454545;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}

@@ -266,3 +266,12 @@
   border-radius: 10rem;
   background: rgba(45, 45, 45, 0.48);
 }
+
+.inner-section-4-container--control-container--content {
+  margin-top: 7.2rem;
+  align-self: flex-end;
+}
+
+.inner-section-4-container--control-container--content .heading-2 {
+  margin-bottom: 1rem;
+}

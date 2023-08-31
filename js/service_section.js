@@ -36,7 +36,7 @@ const serviceItens = {
       activeIcon: "../assets/icons/mdi_storage.svg",
       description:
         "lorem lorem lorem lorem ipsum dolor sit amet, consectetur adip",
-      image: "../assets/images/pexels-brett-sayles-4339335.jpg",
+      image: "../assets/images/pexels-brett-sayles-4597280.jpg",
     },
   ],
 };
