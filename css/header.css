@@ -182,7 +182,14 @@
   font-size: 2rem;
   font-weight: bold;
   text-decoration: none;
+  opacity: 0.75;
+  transition: 0.5s;
 }
+
+.header-central-cta-button:hover {
+  opacity: 1;
+  transform: scale(1.05);
+} 
 
 
 
