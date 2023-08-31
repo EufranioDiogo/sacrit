@@ -1,7 +1,7 @@
-const closeButton = document.querySelector('.mobile-menu-container--right .mobile-menu-container--right-top .menu-hambuerger-container')
+const closeButton = document.querySelector('#close-mobile-menu')
 const rightContainer = document.querySelector('.mobile-menu-container--right');
-const mobileMenuContainer = document.querySelector('.hero-open-menu');
-const mobileMenuHamburger = document.querySelector('.menu-container-fixed .menu-hambuerger-container')
+const mobileMenuContainer = document.querySelector('#open-mobile-menu-1');
+const mobileMenuHamburger = document.querySelector('#open-mobile-menu-2')
 const mobileMenuHamburgerHero = document.querySelector('.menu-hambuerger-container--hero');
 let isOnMenu = false;
 
@@ -20,7 +20,6 @@ closeButton.addEventListener('click', (ev) => {
 mobileMenuHamburger.addEventListener('click', (ev) => {
   mobileMenuContainer.classList.toggle('mobile-menu-container--off');
   rightContainer.classList.toggle('mobile-menu-container--right--off');
-
 
   setTimeout(() => {
     isOnMenu = !isOnMenu;
