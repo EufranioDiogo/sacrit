@@ -124,3 +124,14 @@
   }
 
 }
+
+/*.about-us-quote-container*/
+
+@media screen and (max-width: 768px) {
+  .about-us-quote-container{
+    width: 100% !important;
+  }
+  .about-us-quote {
+    text-align: justify;
+  }
+}

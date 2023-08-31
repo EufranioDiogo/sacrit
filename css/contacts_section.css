@@ -74,3 +74,15 @@
     width: 100%;
   }
 }
+
+@media screen and (max-width: 768px) {
+  .inner-where-we-are--right-container{
+    width: 100% !important;
+  }
+  .inner-section-contact-us--container--top-content {
+    width: 100%;
+  }
+  .section-7 {
+    padding: 2rem 6rem;
+  }
+}

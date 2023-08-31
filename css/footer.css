@@ -75,3 +75,14 @@
   width: 1.2rem;
   height: 1.2rem;
 }
+
+/*footer-inner-container--top-container*/
+
+@media screen and (max-width: 768px) {
+  .footer-inner-container--top-container{
+    width: 100% !important;
+    display: flex;
+    flex-direction: column;
+    gap: 3rem 0;
+  }
+}

@@ -226,3 +226,13 @@
   }
 
 }
+
+@media screen and (max-width: 768px) {
+
+  .inner-section-3-container--left {
+    width: 90% !important;
+    border-radius: 2rem;
+    height: 32rem;
+    overflow-y: scroll;
+  }
+}

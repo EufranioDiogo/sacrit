@@ -314,3 +314,16 @@
   }
 
 }
+
+@media screen and (max-width: 768px) {
+
+  .inner-section-4-container--left {
+    width: 90% !important;
+    border-radius: 2rem;
+    height: 32rem;
+    overflow-y: scroll;
+  }
+  .inner-section-4-service-itens-list {
+    justify-content: inherit;
+  }
+}

@@ -330,7 +330,7 @@
     flex-direction: row-reverse;
   }
   .service-item-card {
-    width: 45%;
+    width: 75%;
   }
   .inner-section-2-container  {
     flex-direction: column;
@@ -355,4 +355,14 @@
     width: 100%;
   }
 
+}
+
+@media screen and (max-width: 768px) {
+
+  .inner-section-2-container--left {
+    width: 90% !important;
+    border-radius: 2rem;
+    height: 32rem;
+    overflow-y: scroll;
+  }
 }
