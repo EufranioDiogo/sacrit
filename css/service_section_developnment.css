@@ -287,3 +287,30 @@
     width: 100%;
   }
 }
+
+
+@media screen and (max-width: 1024px) {
+  .inner-section-4-container  {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner-section-4-container--left {
+    width: 90% !important;
+    border-radius: 2rem;
+    height: 22rem;
+    overflow-y: scroll;
+  }
+  .inner-section-4-container--left--content-container {
+    bottom: unset;
+    top: 50%;
+    transform: translate(-50%, -50%);
+  }
+  .inner-section-4-container--right {
+    width: 90%;
+  }
+  .inner-section-4-container--content {
+    width: 100%;
+  }
+
+}

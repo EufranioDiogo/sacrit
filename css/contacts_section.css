@@ -37,6 +37,7 @@
   width: 80%;
   margin-bottom: 6rem;
 }
+
 .contact-us-top-content {
   color: #FFF;
   font-size: 4.2rem;
@@ -45,6 +46,7 @@
   line-height: normal;
   display: block;
 }
+
 .extra-contact-info {
   display: flex;
   flex-direction: column;
@@ -61,5 +63,14 @@
   .inner-section-contact-us--container {
     width: 70%;
   }
+}
 
+@media screen and (max-width: 1024px) {
+  .inner-section-contact-us--container {
+    width: 70%;
+  }
+
+  .inner-section-contact-us--container {
+    width: 100%;
+  }
 }

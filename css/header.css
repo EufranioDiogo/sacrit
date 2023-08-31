@@ -228,3 +228,13 @@
     top: 0;
   }
 }
+
+@media screen and (max-width: 1024px) {
+  .menu-container-fixed {
+    padding: 2rem;
+    align-items: center;
+  }
+  .cta-menu-button {
+    padding: 1rem 2rem;
+  }
+}

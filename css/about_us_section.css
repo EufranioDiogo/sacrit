@@ -89,3 +89,38 @@
   font-weight: 400;
   line-height: normal;
 }
+
+
+@media screen and (max-width: 1024px) {
+  .section-6 {
+    padding: 0 7rem 0 7rem !important;
+  }
+  .section-5::before {
+    display: none;
+  }
+  .about-us-quote-container {
+    width: 85%;
+    padding-right: 7rem !important;
+  }
+  .about-us-squad-container {
+    gap: 6rem;
+  }
+  .inner-where-we-are--map-container {
+    flex-direction: column;
+  }
+  .inner-where-we-are--left-container {
+    width: 100% !important;
+  }
+  .inner-where-we-are--right-container {
+    background-image: url('') !important;
+    width: 65% !important;
+    justify-content: flex-start !important;
+  }
+
+  .inner-where-we-are--right-container {
+    align-self: flex-start !important;
+    height: auto !important;
+
+  }
+
+}
