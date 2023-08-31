@@ -2,11 +2,11 @@
   display: flex;
   position: relative;
   flex-direction: column;
-  width: 98vw;
+  width: 98.5vw;
   height: 90vh;
   border-radius: 2rem;
   background-color: #333;
-  margin: 2rem auto;
+  margin: 1rem auto;
   position: relative;
   overflow: hidden;
   align-items: center;
