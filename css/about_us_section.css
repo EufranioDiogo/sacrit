@@ -95,22 +95,28 @@
   .section-6 {
     padding: 0 7rem 0 7rem !important;
   }
+
   .section-5::before {
     display: none;
   }
+
   .about-us-quote-container {
     width: 85%;
     padding-right: 7rem !important;
   }
+
   .about-us-squad-container {
     gap: 6rem;
   }
+
   .inner-where-we-are--map-container {
     flex-direction: column;
   }
+
   .inner-where-we-are--left-container {
     width: 100% !important;
   }
+
   .inner-where-we-are--right-container {
     background-image: url('') !important;
     width: 65% !important;
@@ -128,10 +134,26 @@
 /*.about-us-quote-container*/
 
 @media screen and (max-width: 768px) {
-  .about-us-quote-container{
+  .about-us-quote-container {
     width: 100% !important;
   }
+
   .about-us-quote {
     text-align: justify;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .about-us-quote-container {
+    width: 100%;
+    padding-right: 2rem !important;
+  }
+  
+}
+
+/*
+.about-us-quote-container {
+    width: 85%;
+    padding-right: 4rem !important;
+}
+*/

@@ -93,3 +93,20 @@ line-height: normal;
     width: 100% !important;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .about-us-quote-container {
+    width: 100%;
+    padding-right: 2rem !important;
+  }
+
+  .section-6 {
+    padding: 0 2rem !important;
+  }
+  .inner-where-we-are--map-container {
+    margin-top: 2.5rem;
+  }
+  .inner-where-we-are-location-card {
+    width: 100%;
+  }
+}

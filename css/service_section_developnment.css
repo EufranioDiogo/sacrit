@@ -327,3 +327,12 @@
     justify-content: inherit;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .inner-section-4-container--right {
+    padding: 2rem 0rem;
+  }
+  .inner-section-4-container--control-container--content {
+    display: none;
+  }
+}

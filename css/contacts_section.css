@@ -86,3 +86,28 @@
     padding: 2rem 6rem;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .section-7 {
+    padding: 2rem ;
+  }
+  .contact-us-top-content {
+    font-size: 3.2rem !important;
+  }
+  .inner-section-contact-us--container--bottom-container {
+    flex-direction: column;
+    gap: 2rem 0;
+  }
+  .inner-section-contact-us--container--bottom-container .header-central-cta-button {
+    width: 100%;
+  }
+  .about-us-squad-container {
+    justify-content: center;
+  }
+  .extra-contact-info {
+    align-items: center;
+  }
+  .extra-contact-info .text {
+    font-size: 1.6rem;
+  }
+}

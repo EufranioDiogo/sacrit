@@ -257,6 +257,7 @@
   .header-central-container {
     margin-top: 0;
     margin-bottom: 7rem;
+    width: 85%;
   }
   .header-content-container--text {
     font-size: 3.2rem;
@@ -264,6 +265,11 @@
 
   .header-central-cta-button {
     margin-top: 2rem;
+  }
+
+  .menu-container {
+    padding: 0 2rem;
+    margin: 2rem 0;
   }
   .menu-container-fixed {
     padding: 2rem;
@@ -327,7 +333,7 @@
     height: 100%;
     background-color: #fff;
     border-radius: 1rem 0 0 1rem;
-    padding: 4rem 6rem;
+    padding: 4rem 2rem;
     display: flex;
     flex-direction: column;
     transition: 0.5s;
@@ -352,5 +358,13 @@
     margin-bottom: 2rem;
     justify-content: space-between;
   }
+}
 
+/*.header-content-container--text*/
+
+
+@media screen and (max-width: 425px) {
+  .header-content-container--text {
+    font-size: 2.4rem !important;
+  }
 }

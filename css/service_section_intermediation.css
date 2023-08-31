@@ -236,3 +236,13 @@
     overflow-y: scroll;
   }
 }
+
+@media screen and (max-width: 425px) {
+  .service-item-card {
+    width: 90%;
+  }
+
+  .inner-section-3-container--right {
+    padding: 2rem 0rem;
+  }
+}
