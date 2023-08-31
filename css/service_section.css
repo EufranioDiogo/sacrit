@@ -136,7 +136,7 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
-  transition: 1s;
+  transition: 0.5s;
 }
 
 .inner-section-2-container--left-img, .inner-section-2-container--left::after {

@@ -21,4 +21,13 @@
   line-height: 1.5;
 }
 
+.normal-text {
+  color: rgba(0, 0, 0, 0.66);
+  font-family: Poppins;
+  font-size: 2rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
 /*Service section*/
