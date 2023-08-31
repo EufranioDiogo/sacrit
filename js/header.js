@@ -23,4 +23,4 @@ setInterval(() => {
 
   contentHeader.innerHTML = headerSlide[imageIndex].title;
 
-}, 4000);
+}, 6000);

@@ -1,6 +1,6 @@
 const closeButton = document.querySelector('.mobile-menu-container--right .mobile-menu-container--right-top .menu-hambuerger-container')
 const rightContainer = document.querySelector('.mobile-menu-container--right');
-const mobileMenuContainer = document.querySelector('.mobile-menu-container');
+const mobileMenuContainer = document.querySelector('.hero-open-menu');
 const mobileMenuHamburger = document.querySelector('.menu-container-fixed .menu-hambuerger-container')
 const mobileMenuHamburgerHero = document.querySelector('.menu-hambuerger-container--hero');
 let isOnMenu = false;

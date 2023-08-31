@@ -1,5 +1,5 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+/*
 @font-face {
   font-family: 'Poppins';
   src: url('./../assets/fonts/poppins/Poppins-Regular.ttf');
@@ -20,7 +20,8 @@
   src: url('./../assets/fonts/poppins/Poppins-Medium.ttf');
   font-weight: 500;
   font-style: normal;
-}
+}*/
+
 * {
   margin: 0;
   padding: 0;
