@@ -186,3 +186,16 @@
   background-color: #000;
   width: 100%;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .inner-section-3-container--left {
+    width: 40%;
+  }
+  .inner-section-3-container--right {
+    width: 60%;
+  }
+  .inner-section-3-container--content {
+    width: 100%;
+  }
+}

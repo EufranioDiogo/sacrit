@@ -58,7 +58,9 @@ const verifiyMenuItemSelection = () => {
     whereWeAreItemLink.classList.toggle("menu-list--item-link_active");
     actualSelected = whereWeAreItemLink;
   } else {
-    actualSelected.classList.toggle("menu-list--item-link_active");
+    if (actualSelected !== undefined) {
+      actualSelected.classList.toggle("menu-list--item-link_active");
+    }
   }
 
   //console.log(element.getBoundingClientRect().y);

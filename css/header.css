@@ -220,3 +220,11 @@
 .menu-container-fixed .cta-menu-button {
   border: 0.1rem solid #076CF3;
 }
+
+@media screen and (max-width: 1440px) {
+  .menu-container-fixed {
+    width: 100vw;
+    justify-content: space-between;
+    top: 0;
+  }
+}

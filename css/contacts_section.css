@@ -55,3 +55,11 @@
   align-items: center;
   gap: 0 3rem;
 }
+
+
+@media screen and (max-width: 1440px) {
+  .inner-section-contact-us--container {
+    width: 70%;
+  }
+
+}

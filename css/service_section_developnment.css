@@ -275,3 +275,15 @@
 .inner-section-4-container--control-container--content .heading-2 {
   margin-bottom: 1rem;
 }
+
+@media screen and (max-width: 1440px) {
+  .inner-section-4-container--left {
+    width: 40%;
+  }
+  .inner-section-4-container--right {
+    width: 60%;
+  }
+  .inner-section-4-container--content {
+    width: 100%;
+  }
+}
