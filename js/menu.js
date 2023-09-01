@@ -22,7 +22,7 @@ const verifiyMenuItemSelection = () => {
   const yMinBound = 250;
 
   if (actualSelected !== undefined) {
-    actualSelected.classList.toggle("menu-list--item-link_active");
+    actualSelected.classList.remove("menu-list--item-link_active");
   }
 
   if (
@@ -33,6 +33,7 @@ const verifiyMenuItemSelection = () => {
   ) {
     whatWeDoSectionItemLink.classList.toggle("menu-list--item-link_active");
     actualSelected = whatWeDoSectionItemLink;
+    console.log(actualSelected);
   } else if (
     yPosition1 <= yMinBound &&
     (yPosition2 - 900) <= yMinBound &&
@@ -41,6 +42,8 @@ const verifiyMenuItemSelection = () => {
   ) {
     ourVendorsItemLink.classList.toggle("menu-list--item-link_active");
     actualSelected = ourVendorsItemLink;
+    console.log(actualSelected);
+
   } else if (
     yPosition1 <= yMinBound &&
     (yPosition2 - 900) <= yMinBound &&
@@ -49,6 +52,8 @@ const verifiyMenuItemSelection = () => {
   ) {
     whoWeAreItemLink.classList.toggle("menu-list--item-link_active");
     actualSelected = whoWeAreItemLink;
+    console.log(actualSelected);
+
   } else if (
     yPosition1 <= yMinBound &&
     (yPosition2 - 900) <= yMinBound &&
@@ -57,9 +62,12 @@ const verifiyMenuItemSelection = () => {
   ) {
     whereWeAreItemLink.classList.toggle("menu-list--item-link_active");
     actualSelected = whereWeAreItemLink;
+    console.log(actualSelected);
   } else {
     if (actualSelected !== undefined) {
       actualSelected.classList.toggle("menu-list--item-link_active");
+    console.log(actualSelected);
+
     }
   }
 

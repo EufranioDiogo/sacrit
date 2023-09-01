@@ -380,6 +380,21 @@
 
 @media screen and (max-width: 768px) {
 
+  .inner-section-1-container {
+    gap: 3.5rem 0;
+  }
+  .inner-section-1-container-bottom {
+    gap: 7rem 0;
+  }
+  .service-item-card {
+    padding: 0rem;
+  }
+  .service-item-card:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    background: #FFF;
+    box-shadow: none;
+}
   .inner-section-2-container--left {
     width: 90% !important;
     border-radius: 2rem;
@@ -392,6 +407,9 @@
 @media screen and (max-width: 425px) {
   .inner-section-2-container--right {
     padding: 2rem 0rem;
+  }
+  .inner-section-4-container--content-top-label {
+    font-size: 1.4rem !important;
   }
 }
 

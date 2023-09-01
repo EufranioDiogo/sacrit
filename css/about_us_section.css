@@ -141,12 +141,20 @@
   .about-us-quote {
     text-align: justify;
   }
+  .about-us-squad-container {
+    width: 100%;
+    margin-top: 6rem;
+  }
 }
 
 @media screen and (max-width: 425px) {
   .about-us-quote-container {
     width: 100%;
     padding-right: 2rem !important;
+    margin: 3rem 0 2rem 0;
+  }
+  .about-us-quote {
+    font-size: 1.6rem;
   }
   
 }
