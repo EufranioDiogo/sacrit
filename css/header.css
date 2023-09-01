@@ -384,8 +384,24 @@
 
   .mobile-menu-container--right-top {
     display: flex;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
     justify-content: space-between;
+  }
+  .btn-cta-menu-mobile {
+    padding: 2rem 4rem;
+    width: 100%;
+    color: #fff;
+    background-color: #076CF3;
+    border-radius: 1rem;
+    border: none;
+    font-size: 1.6rem;
+    margin-top: 6rem;
+    font-weight: 700;
+    text-decoration: none;
+  }
+  .btn-cta-menu-mobile:hover {
+    background-color: #0356c2;
+
   }
 }
 
@@ -402,5 +418,8 @@
   .logo-part-1-container {
     width: 4.2rem;
     height: 3.8rem;
+  }
+  .mobile-menu-container--right {
+    width: 70%;
   }
 }

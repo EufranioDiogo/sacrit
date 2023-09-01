@@ -221,6 +221,8 @@
   margin: 1rem 0;
   gap: 2.5rem 0;
   margin-top: 6.4rem;
+  height: 36rem;
+  overflow-y: scroll;
 }
 
 .inner-section-2-service-itens-list {

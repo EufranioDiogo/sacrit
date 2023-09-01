@@ -276,6 +276,10 @@
   margin-bottom: 1rem;
 }
 
+.inner-section-4-container--control-container--content {
+  display: none;
+}
+
 @media screen and (max-width: 1440px) {
   .inner-section-4-container--left {
     width: 40%;
