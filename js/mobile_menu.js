@@ -7,11 +7,8 @@ let isOnMenu = false;
 
 
 closeButton.addEventListener('click', () => {
-  console.log('dev1')
   mobileMenuContainer.classList.add('mobile-menu-container--off');
   rightContainer.classList.add('mobile-menu-container--right--off');
-
-  console.log('dev2')
 
   setTimeout(() => {
     isOnMenu = !isOnMenu;
@@ -20,22 +17,17 @@ closeButton.addEventListener('click', () => {
 
 mobileMenuHamburger.addEventListener('click', (ev) => {
   ev.stopPropagation();
-  console.log('1');
-  console.log(mobileMenuContainer.classList.toggle('mobile-menu-container--off'));
+  
   rightContainer.classList.toggle('mobile-menu-container--right--off');
-  console.log('2')
 
-  console.log(mobileMenuContainer)
   setTimeout(() => {
     isOnMenu = !isOnMenu;
   }, 500);
 });
 
 mobileMenuHamburgerHero.addEventListener('click', () => {
-  console.log('4')
   mobileMenuContainer.classList.toggle('mobile-menu-container--off');
   rightContainer.classList.toggle('mobile-menu-container--right--off');
-  console.log('5')
 
   setTimeout(() => {
     isOnMenu = !isOnMenu;
