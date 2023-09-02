@@ -17,7 +17,7 @@ closeButton.addEventListener('click', () => {
 
 mobileMenuHamburger.addEventListener('click', (ev) => {
   ev.stopPropagation();
-  
+  mobileMenuContainer.classList.toggle('mobile-menu-container--off');
   rightContainer.classList.toggle('mobile-menu-container--right--off');
 
   setTimeout(() => {
