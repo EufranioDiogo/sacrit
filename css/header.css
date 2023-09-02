@@ -414,6 +414,22 @@
     background-color: #0356c2;
 
   }
+
+  #close-mobile-menu {
+    position: relative;
+    transform: rotate(45deg);
+  }
+  #close-mobile-menu::after, #close-mobile-menu::before {
+    content: '';
+    height: 45%;
+    width: 0.4rem;
+    background-color: #fff;
+    border-radius: 2rem;
+    position: absolute;
+  }
+  #close-mobile-menu::after {
+    transform: rotate(90deg)
+  }
 }
 
 /*.header-content-container--text*/
