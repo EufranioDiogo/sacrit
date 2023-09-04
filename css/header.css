@@ -418,6 +418,7 @@
   #close-mobile-menu {
     position: relative;
     transform: rotate(45deg);
+    right: 0;
   }
   #close-mobile-menu::after, #close-mobile-menu::before {
     content: '';

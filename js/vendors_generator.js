@@ -1,0 +1,6 @@
+const vendors = [
+  {
+    image: '',
+    name: ''
+  }
+];
