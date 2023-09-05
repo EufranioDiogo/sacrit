@@ -225,6 +225,10 @@
   overflow-y: scroll;
 }
 
+.inner-section-2-container-control-container--itens {
+  margin-left: 0.5rem;
+  margin-bottom: 0.5rem;
+}
 .inner-section-2-service-itens-list {
   margin-top: 1.5rem;
   list-style: none;
