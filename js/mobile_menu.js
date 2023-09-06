@@ -33,3 +33,11 @@ mobileMenuHamburgerHero.addEventListener('click', () => {
     isOnMenu = !isOnMenu;
   }, 500);
 });
+
+const mobileMenuItens = document.querySelectorAll('.mobile-menu-container--right .menu-list--item');
+
+mobileMenuItens.forEach(element => {
+  element.addEventListener('click', (e) => {
+    closeButton.click();
+  })
+});
