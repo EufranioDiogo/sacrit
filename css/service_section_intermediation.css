@@ -87,7 +87,7 @@
   font-weight: 400;
   line-height: normal;
   border-radius: 4rem;
-  background-color: #000;
+  background-color: #f37000;
   align-self: flex-start;
   padding: 0.75rem 3rem;
 }
@@ -122,6 +122,7 @@
   padding: 0rem 1rem;
   cursor: pointer;
   transition: 0.25s;
+  overflow: hidden;
 }
 
 .inner-section-3--service-item:hover {
@@ -196,6 +197,7 @@
   align-items: center;
   height: 20rem;
   justify-content: space-between;
+  gap: 0 1rem;
 }
 .swiper-vendors {
   position: relative;
@@ -284,7 +286,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 
   .inner-section-3-container--left {
     width: 90% !important;

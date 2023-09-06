@@ -374,7 +374,7 @@
 
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 
   .inner-section-2-container--left {
     width: 90% !important;
@@ -384,7 +384,7 @@
   }
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
 
   .inner-section-1-container {
     gap: 3.5rem 0;

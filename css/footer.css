@@ -78,7 +78,7 @@
 
 /*footer-inner-container--top-container*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .footer-inner-container--top-container{
     width: 100% !important;
     display: flex;

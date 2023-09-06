@@ -26,6 +26,7 @@
     <link rel="stylesheet" href="./css/service_section_intermediation.css" />
     <link rel="stylesheet" href="./css/service_section_developnment.css" />
     <link rel="stylesheet" href="./css/about_us_section.css" />
+    <link rel="stylesheet" href="./css/our_partners_section.css" />
     <link rel="stylesheet" href="./css/where_we_are.css" />
     <link rel="stylesheet" href="./css/contacts_section.css" />
     <link rel="stylesheet" href="./css/footer.css" />
@@ -88,7 +89,7 @@
               href="#our-vendors"
               class="menu-list--item-link fixed-menu-item our-vendors-list--item-link"
             >
-              Nossos Clientes
+              Vendors
             </a>
           </li>
           <li class="menu-list--item">
@@ -97,6 +98,14 @@
               class="menu-list--item-link fixed-menu-item who-we-are-list--item-link"
             >
               Quem Somos
+            </a>
+          </li>
+          <li class="menu-list--item">
+            <a
+              href="#our-partners"
+              class="menu-list--item-link fixed-menu-item our-partners-list--item-link"
+            >
+              Parceiros
             </a>
           </li>
           <li class="menu-list--item">
@@ -145,13 +154,16 @@
               </a>
             </li>
             <li class="menu-list--item">
-              <a href="#our-vendors" class="menu-list--item-link">
-                Nossos Clientes
-              </a>
+              <a href="#our-vendors" class="menu-list--item-link"> Vendors </a>
             </li>
             <li class="menu-list--item">
               <a href="#who-we-are" class="menu-list--item-link">
                 Quem Somos
+              </a>
+            </li>
+            <li class="menu-list--item">
+              <a href="#our-partners" class="menu-list--item-link">
+                Parceiros
               </a>
             </li>
             <li class="menu-list--item">
@@ -229,7 +241,7 @@
               href="#our-vendors"
               class="menu-list--item-link fixed-menu-item our-vendors-list--item-link"
             >
-              Nossos Clientes
+              Vendors
             </a>
           </li>
           <li class="menu-list--item">
@@ -238,6 +250,14 @@
               class="menu-list--item-link fixed-menu-item who-we-are-list--item-link"
             >
               Quem Somos
+            </a>
+          </li>
+          <li class="menu-list--item">
+            <a
+              href="#our-partners"
+              class="menu-list--item-link fixed-menu-item our-partners-list--item-link"
+            >
+              Parceiros
             </a>
           </li>
           <li class="menu-list--item">
@@ -375,7 +395,7 @@
       </div>
     </section>
 
-    <section class="section-3 section">
+    <section id="our-vendors" class="section-3 section">
       <div class="inner-section-3-container inner-section-3-container-1">
         <div class="inner-section-3-container--left">
           <div class="inner-section-3-container--left--content-container">
@@ -627,7 +647,7 @@
       </div>
     </section>
 
-    <section id="our-vendors" class="section-4 section">
+    <section id="what-we-do" class="section-4 section">
       <div class="inner-section-4-container inner-section-4-container-1">
         <div class="inner-section-4-container--left">
           <div class="inner-section-4-container--left--content-container">
@@ -833,6 +853,34 @@
       </div>
     </section>
 
+    <section id="our-partners" class="section-8 section">
+      <div class="inner-our-partner">
+        <div class="inner-our-partner--top-container">
+          <h2 class="heading-1">Nossos Parceiros</h2>
+          <span class="normal-text">O nosso sucesso, é o seu!</span>
+        </div>
+
+        <div class="inner-our-partner--bottom-container">
+          <div class="our-partners-grid-container">
+            <div class="our-partner-logo-container">
+              <img
+                src="./assets/images/parceiros/clinica_sagrada_esperanca.jpeg"
+                alt="Logo Clínica Sagrada Esperança"
+                class="our-partner-logo-img"
+              />
+            </div>
+            <div class="our-partner-logo-container">
+              <img
+                src="./assets/images/parceiros/simples_oil_e_gas.jpeg"
+                alt="Logo Simples Oil & Gas"
+                class="our-partner-logo-img"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
     <section id="where-we-are" class="section-6 section">
       <div class="inner-where-we-are-container">
         <h2 class="heading-1">Nossa Localização</h2>
@@ -996,36 +1044,30 @@
           320: {
             slidesPerView: 1,
             spaceBetween: 0,
+            autoplay: {
+              enabled: true,
+              delay: 5000,
+            },
           },
           // when window width is >= 480px
-          427: {
-            slidesPerView: 3,
-            spaceBetween: 30,
+          425: {
+            slidesPerView: 2,
+            spaceBetween: 10,
+            autoplay: {
+              enabled: true,
+              delay: 5000,
+            },
           },
           768: {
             slidesPerView: 4,
             spaceBetween: 30,
+            autoplay: {
+              enabled: true,
+              delay: 5000,
+            },
           },
         },
       });
-      /*simpleslider.getSlider({
-        container: document.querySelector(".image-header-container"),
-        duration: 10,
-        prop: "opacity",
-        unit: "",
-        init: 0,
-        show: 10,
-        end: 0,
-      });
-      simpleslider.getSlider({
-        container: document.querySelector(".header-content-container"),
-        duration: 10,
-        prop: "opacity",
-        unit: "",
-        init: 0,
-        show: 10,
-        end: 0,
-      });*/
     </script>
   </body>
 </html>

@@ -133,7 +133,7 @@
 
 /*.about-us-quote-container*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .about-us-quote-container {
     width: 100% !important;
   }

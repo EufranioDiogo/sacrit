@@ -88,7 +88,7 @@ line-height: normal;
 
 /*.inner-where-we-are--right-container*/
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 1023px) {
   .inner-where-we-are--right-container{
     width: 100% !important;
     margin-top: 2rem !important;
