@@ -5,12 +5,11 @@
   margin-bottom: 13.5rem;
   margin-left: auto;
   margin-right: auto;
-  width: 90%;
+  width: 80%;
 }
 
 .inner-section-3-container--left {
   width: 28.5%;
-  height: 66.3rem;
   border-radius: 2rem;
   position: relative;
   overflow: hidden;
@@ -62,7 +61,7 @@
 
 .inner-section-3-container--right {
   width: 71.5%;
-  padding: 5rem 5rem;
+  padding: 0rem 5rem;
   display: flex;
   flex-direction: column;
 }
