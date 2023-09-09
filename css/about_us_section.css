@@ -107,9 +107,9 @@
   margin-top: 1rem;
 }
 .social-midea-about-us-element {
-  font-size: 2rem;
-  width: 3.8rem;
-  height: 3.8rem;
+  font-size: 1.6rem;
+  width: 2.8rem;
+  height: 2.8rem;
   color: #076CF3;
   cursor: pointer;
   display: flex;
@@ -117,8 +117,9 @@
   align-items: center;
   padding: 1rem;
   border-radius: 0.5rem;
-  border: 2px solid #076CF3;
+  border: 1px solid #076CF3;
   text-decoration: none;
+  font-weight: 400;
 }
 .social-midea-about-us-element:hover {
   color: #fff;
@@ -126,12 +127,18 @@
   
 }
 
+.about-us-timeline-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5rem;
+}
+
 .about-us-timeline--item-container {
   display: flex;
   flex-wrap: wrap;
   gap: 2.5rem;
-  align-items: flex-end;
   transition: 1s;
+  flex-direction: column;
 }
 
 .about-us-timeline--item-desc, .about-us-timeline--item-year {
@@ -144,10 +151,12 @@
   cursor: default;
 }
 
+.about-us-timeline--item-container--top-container {
+
+}
 .about-us-timeline--item-year, .about-us-timeline--item-year::after {
-  font-size: 12.8rem;
+  font-size: 6.4rem;
   color: #076df3bb;
-  height: 12.8rem;
 }
 
 .about-us-timeline--item-year::after {
@@ -170,7 +179,7 @@
 }
 
 .about-us-timeline--item-desc {
-  font-size: 6.4rem;
+  font-size: 3.2rem;
   color: #1b1b1bbb;
   height: 6.4rem;
 }
