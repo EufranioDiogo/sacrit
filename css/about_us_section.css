@@ -106,6 +106,7 @@
   display: flex;
   gap: 0 1rem;
 }
+
 .social-midea-about-us-element {
   font-size: 1.6rem;
   width: 2.8rem;
@@ -121,10 +122,11 @@
   text-decoration: none;
   font-weight: 400;
 }
+
 .social-midea-about-us-element:hover {
   color: #fff;
   background-color: #076CF3;
-  
+
 }
 
 .about-us-timeline-container {
@@ -148,6 +150,7 @@
   opacity: 1;
   background-color: rgb(255, 255, 255);
 }
+
 .about-us-timeline--item-container--top-container {
   display: flex;
   flex-direction: column;
@@ -163,9 +166,8 @@
   cursor: default;
 }
 
-.about-us-timeline--item-container--top-container {
+.about-us-timeline--item-container--top-container {}
 
-}
 .about-us-timeline--item-year, .about-us-timeline--item-year::after {
   font-size: 4.8rem;
   color: #076df3bb;
@@ -186,7 +188,7 @@
   line-height: 1.3;
 }
 
-.about-us-timeline--item-container:hover .about-us-timeline--item-year::after{
+.about-us-timeline--item-container:hover .about-us-timeline--item-year::after {
   width: 100%;
 }
 
@@ -200,6 +202,10 @@
 
 
 @media screen and (max-width: 1024px) {
+  .social-midea-about-us-container {
+    justify-content: flex-end;
+  }
+
   .section-6 {
     padding: 0 7rem 0 7rem !important;
   }

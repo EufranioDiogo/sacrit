@@ -1,5 +1,3 @@
-
-
 .inner-section-2-container {
   display: flex;
   justify-content: center;
@@ -114,6 +112,7 @@
   margin-left: 0.5rem;
   margin-bottom: 0.5rem;
 }
+
 .inner-section-2-service-itens-list {
   margin-top: 1.5rem;
   list-style: none;
@@ -135,7 +134,7 @@
   padding: 1rem;
   cursor: pointer;
   transition: 0.25s;
-  
+
 }
 
 .inner-section-2--service-item:hover {
@@ -223,6 +222,16 @@
 }
 
 @media screen and (max-width: 1024px) {
+  .inner-section-2-container {
+    width: 95%;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .inner-section-2-container--content-top {
+    margin-top: 1.5rem;
+  }
+
   .inner-section-1-container-bottom {
     flex-wrap: wrap;
     justify-content: center;
@@ -233,10 +242,6 @@
     width: 75%;
   }
 
-  .inner-section-2-container {
-    flex-direction: column;
-    align-items: center;
-  }
 
   .inner-section-2-container--left {
     width: 90% !important;
@@ -261,8 +266,7 @@
 
 }
 
-@media screen and (max-width: 1023px) {
-
+@media screen and (max-width: 768px) {
   .inner-section-2-container--left {
     width: 90% !important;
     border-radius: 2rem;
@@ -271,23 +275,35 @@
   }
 }
 
-@media screen and (max-width: 1023px) {
+@media screen and (max-width: 425px) {
+  .inner-section-2-container {
+    width: 100%;
+  }
+
+  .inner-section-2-container--right {
+    width: 100%;
+    padding: 0rem 2.5rem;
+  }
 
   .inner-section-1-container {
     gap: 3.5rem 0;
   }
+
   .inner-section-1-container-bottom {
     gap: 7rem 0;
   }
+
   .service-item-card {
-    padding: 0rem;
+    padding: 2rem 0.5rem;
   }
+
   .service-item-card:hover {
     transform: scale(1.05);
     border-radius: 10px;
     background: #FFF;
     box-shadow: none;
-}
+  }
+
   .inner-section-2-container--left {
     width: 90% !important;
     border-radius: 2rem;
@@ -297,10 +313,11 @@
 }
 
 
-@media screen and (max-width: 425px) {
+@media screen and (max-width: 375px) {
   .inner-section-2-container--right {
     padding: 2rem 0rem;
   }
+
   .inner-section-4-container--content-top-label {
     font-size: 1.4rem !important;
   }
