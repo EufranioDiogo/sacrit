@@ -5,8 +5,7 @@ const serviceItens = {
       title: "Roteamento",
       icon: "../assets/icons/clarity_router-solid.svg",
       activeIcon: "../assets/icons/clarity_router-solid.svg",
-      description:
-        "Temos a melhor solução de roteamento para a sua empresa, usando os mais diferentes e vendors.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -14,8 +13,7 @@ const serviceItens = {
       title: "Switching",
       icon: "../assets/icons/mi_switch.svg",
       activeIcon: "../assets/icons/mi_switch.svg",
-      description:
-        "lorem lorem lorem lorem ipsum dolor sit amet, consectetur adip",
+      description: "",
       image: "../assets/images/pexels-brett-sayles-4339335.jpg",
     },
     {
@@ -23,7 +21,7 @@ const serviceItens = {
       title: "Mobility",
       icon: "../assets/icons/ion_wifi.svg",
       activeIcon: "../assets/icons/ion_wifi.svg",
-      description: "Descrição da Mobility.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -31,7 +29,7 @@ const serviceItens = {
       title: "Communications",
       icon: "../assets/icons/carbon_network-4.svg",
       activeIcon: "../assets/icons/carbon_network-4.svg",
-      description: "Descrição da Communications.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -39,7 +37,7 @@ const serviceItens = {
       title: "Timing Synchronization",
       icon: "../assets/icons/formkit_time.svg",
       activeIcon: "../assets/icons/formkit_time.svg",
-      description: "Descrição do Timing Synchronization.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -47,7 +45,7 @@ const serviceItens = {
       title: "Management and Orchestration",
       icon: "../assets/icons/pajamas_container-image.svg",
       activeIcon: "../assets/icons/pajamas_container-image.svg",
-      description: "Descrição do Management and Orchestration.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -55,7 +53,7 @@ const serviceItens = {
       title: "Broadband Wireless Solutions",
       icon: "../assets/icons/carbon_undefined.svg",
       activeIcon: "../assets/icons/carbon_undefined.svg",
-      description: "Descrição do Broadband Wireless Solutions.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -63,7 +61,7 @@ const serviceItens = {
       title: "Mobile Backhaul",
       icon: "../assets/icons/carbon_undefined.svg",
       activeIcon: "../assets/icons/carbon_undefined.svg",
-      description: "Descrição do Mobile Backhaul.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
   ],
@@ -73,8 +71,7 @@ const serviceItens = {
       title: "Servidores",
       icon: "../assets/icons/bi_hdd-network-fill.svg",
       activeIcon: "../assets/icons/bi_hdd-network-fill.svg",
-      description:
-        "lorem lorem lorem lorem ipsum dolor sit amet, consectetur adip",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -82,8 +79,7 @@ const serviceItens = {
       title: "Armazenamento",
       icon: "../assets/icons/mdi_storage.svg",
       activeIcon: "../assets/icons/mdi_storage.svg",
-      description:
-        "lorem lorem lorem lorem ipsum dolor sit amet, consectetur adip",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -91,7 +87,7 @@ const serviceItens = {
       title: "Data Center",
       icon: "../assets/icons/carbon_network-enterprise.svg",
       activeIcon: "../assets/icons/carbon_network-enterprise.svg",
-      description: "Descrição de Data Center.",
+      description: "",
       image: "../assets/images/pexels-brett-sayles-4597280.jpg",
     },
   ],
@@ -101,7 +97,7 @@ const serviceItens = {
       title: "Phone Systems",
       icon: "../assets/icons/ic_sharp-phone.svg",
       activeIcon: "../assets/icons/ic_sharp-phone.svg",
-      description: "Descrição do Phone Systems.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -109,7 +105,7 @@ const serviceItens = {
       title: "MS",
       icon: "../assets/icons/carbon_undefined.svg",
       activeIcon: "../assets/icons/carbon_undefined.svg",
-      description: "Descrição do MS.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -117,7 +113,7 @@ const serviceItens = {
       title: "Video Conferencing",
       icon: "../assets/icons/mdi_virtual-meeting.svg",
       activeIcon: "../assets/icons/mdi_virtual-meeting.svg",
-      description: "Descrição do Video Conferencing.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -125,7 +121,7 @@ const serviceItens = {
       title: "Contact Center",
       icon: "../assets/icons/mdi_customer-service.svg",
       activeIcon: "../assets/icons/mdi_customer-service.svg",
-      description: "Descrição do Contact Center.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
   ],
@@ -135,7 +131,7 @@ const serviceItens = {
       title: "FTTx",
       icon: "../assets/icons/carbon_undefined.svg",
       activeIcon: "../assets/icons/carbon_undefined.svg",
-      description: "Descrição do FTTx.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -143,7 +139,7 @@ const serviceItens = {
       title: "Cabling",
       icon: "../assets/icons/ic_twotone-cable.svg",
       activeIcon: "../assets/icons/ic_twotone-cable.svg",
-      description: "Descrição do Cabling.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -151,7 +147,7 @@ const serviceItens = {
       title: "Optical Tx Solutions",
       icon: "../assets/icons/flat-color-icons_cable-release.svg",
       activeIcon: "../assets/icons/flat-color-icons_cable-release.svg",
-      description: "Descrição do Optical Tx Solutions.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
   ],
@@ -161,7 +157,7 @@ const serviceItens = {
       title: "Gateway Protection",
       icon: "../assets/icons/carbon_ibm-cloud-privileged-access-gateway.svg",
       activeIcon: "../assets/icons/carbon_ibm-cloud-privileged-access-gateway.svg",
-      description: "Descrição do Gateway Protection.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -169,7 +165,7 @@ const serviceItens = {
       title: "CCTV",
       icon: "../assets/icons/icon-park-solid_surveillance-cameras-two.svg",
       activeIcon: "../assets/icons/icon-park-solid_surveillance-cameras-two.svg",
-      description: "Descrição do CCTV.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
     {
@@ -177,7 +173,7 @@ const serviceItens = {
       title: "Access Security",
       icon: "../assets/icons/mdi_security-lock-outline.svg",
       activeIcon: "../assets/icons/mdi_security-lock-outline.svg",
-      description: "Descrição do Access Security.",
+      description: "",
       image: "../assets/images/pexels-jah-nomad-17220238.jpg",
     },
   ],
