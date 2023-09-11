@@ -281,8 +281,12 @@
   }
 
   .inner-section-2-container--right {
-    width: 100%;
+    width: 90%;
     padding: 0rem 2.5rem;
+  }
+
+  .inner-section-2-service-itens-list {
+    gap: 1.5rem;
   }
 
   .inner-section-1-container {
