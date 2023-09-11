@@ -1071,6 +1071,7 @@
               problema
             </span>
 
+            <span class="current-year-footer">2023</span>
             <div class="social-midias-company"></div>
           </div>
 
@@ -1127,6 +1128,7 @@
     <script src="./js/service_section.js"></script>
     <script src="./js/mobile_menu.js"></script>
     <script>
+      
       const swiper = new Swiper(".swiper-vendors", {
         slidesPerView: 4,
         spaceBetween: 50,
@@ -1175,6 +1177,9 @@
           },
         },
       });
+    
+      const actualYearFooter = document.querySelector(".current-year-footer");
+      actualYearBody.innerText = (new Date().getFullYear()).toString();
     </script>
   </body>
 </html>

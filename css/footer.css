@@ -75,6 +75,12 @@
   width: 1.2rem;
   height: 1.2rem;
 }
+.current-year-footer {
+  font-size: 2.4rem;
+  font-weight: 600;
+  opacity: 0.5;
+  margin: 1rem 0;
+}
 
 /*footer-inner-container--top-container*/
 
