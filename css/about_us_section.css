@@ -92,13 +92,6 @@
   line-height: normal;
 }
 
-.about-us-timeline-container {
-  display: flex;
-  flex-direction: row;
-  gap: 4rem 0;
-  margin-top: 10rem;
-  flex-wrap: wrap;
-}
 
 .social-midea-about-us-container {
   list-style: none;
@@ -129,9 +122,13 @@
 
 }
 
+
 .about-us-timeline-container {
   display: flex;
-  gap: 5rem;
+  flex-direction: row;
+  gap: 4rem 0;
+  margin-top: 2.5rem;
+  flex-wrap: wrap;
 }
 
 .about-us-timeline--item-container {
@@ -142,8 +139,6 @@
   flex-direction: column;
   border-radius: 1rem;
   background-color: rgb(255, 255, 255);
-  opacity: 0.5;
-  width: 30%;
 }
 
 .about-us-timeline--item-container:hover {
@@ -153,15 +148,15 @@
 
 .about-us-timeline--item-container--top-container {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  gap: 0 1rem;
 }
 
 .about-us-timeline--item-desc, .about-us-timeline--item-year {
   font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-weight: 700;
   display: block;
-  line-height: 1.5;
-  position: relative;
   transition: 1s;
   cursor: default;
 }
@@ -195,9 +190,9 @@
 .about-us-timeline--item-desc {
   font-size: 2rem;
   color: #1b1b1b;
-  font-weight: 400;
-  line-height: 1.5;
+  font-weight: 600;
   text-align: justify;
+  margin-bottom: 1.4rem;
 }
 
 
@@ -271,6 +266,13 @@
 
   .about-us-quote {
     font-size: 1.6rem;
+  }
+  .about-us-timeline-container {
+    justify-content: center;
+  }
+  .about-us-timeline--item-container--top-container {
+    flex-direction: column;
+    align-items: center;
   }
 
 }
