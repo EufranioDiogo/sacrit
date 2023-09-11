@@ -138,13 +138,8 @@
   transition: 1s;
   flex-direction: column;
   border-radius: 1rem;
-  background-color: rgb(255, 255, 255);
 }
 
-.about-us-timeline--item-container:hover {
-  opacity: 1;
-  background-color: rgb(255, 255, 255);
-}
 
 .about-us-timeline--item-container--top-container {
   display: flex;
