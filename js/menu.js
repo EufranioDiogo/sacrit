@@ -30,7 +30,7 @@ const verifiyMenuItemSelection = () => {
 
   if (
     yPosition1 <= yMinBound &&
-    (yPosition2 - 900) > yMinBound &&
+    (yPosition2) > yMinBound &&
     yPosition3 > yMinBound &&
     yPosition4 > yMinBound &&
     yPosition5 > yMinBound
@@ -39,7 +39,7 @@ const verifiyMenuItemSelection = () => {
     actualSelected = whatWeDoSectionItemLink;
   } else if (
     yPosition1 <= yMinBound &&
-    (yPosition2 - 900) <= yMinBound &&
+    (yPosition2) <= yMinBound &&
     yPosition3 > yMinBound &&
     yPosition4 > yMinBound &&
     yPosition5 > yMinBound
@@ -49,7 +49,7 @@ const verifiyMenuItemSelection = () => {
 
   } else if (
     yPosition1 <= yMinBound &&
-    (yPosition2 - 900) <= yMinBound &&
+    (yPosition2) <= yMinBound &&
     yPosition3 <= yMinBound &&
     yPosition4 > yMinBound &&
     yPosition5 > yMinBound
@@ -59,7 +59,7 @@ const verifiyMenuItemSelection = () => {
 
   } else if (
     yPosition1 <= yMinBound &&
-    (yPosition2 - 900) <= yMinBound &&
+    (yPosition2) <= yMinBound &&
     yPosition3 <= yMinBound &&
     yPosition4 <= yMinBound &&
     yPosition5 > yMinBound
@@ -68,7 +68,7 @@ const verifiyMenuItemSelection = () => {
     actualSelected = ourPartnersItemLink;
   } else if (
     yPosition1 <= yMinBound &&
-    (yPosition2 - 900) <= yMinBound &&
+    (yPosition2) <= yMinBound &&
     yPosition3 <= yMinBound &&
     yPosition4 <= yMinBound &&
     yPosition5 <= yMinBound
