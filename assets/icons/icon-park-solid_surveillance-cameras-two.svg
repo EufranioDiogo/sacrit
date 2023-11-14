@@ -1,17 +1,1 @@
-<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g id="icon-park-solid:surveillance-cameras-two">
-<g id="Mask group">
-<mask id="mask0_141_223" style="mask-type:luminance" maskUnits="userSpaceOnUse" x="2" y="7" width="43" height="32">
-<g id="Group">
-<g id="Group_2">
-<path id="Vector" d="M19.006 26.2761V37.0001H5M42.62 21.2151L38.757 20.1801L34.754 27.3901L40.55 28.9431L42.62 21.2151Z" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-<path id="Vector_2" d="M38.757 20.18L34.754 27.39L33.012 30.029L5 22.523L8.623 9L40.5 17.541L38.757 20.18Z" fill="white" stroke="white" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
-</g>
-</g>
-</mask>
-<g mask="url(#mask0_141_223)">
-<path id="Vector_3" d="M0 0H48V48H0V0Z" fill="#1E1E1E" fill-opacity="0.85"/>
-</g>
-</g>
-</g>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" width="48" height="48" fill="none" viewBox="0 0 48 48"><g id="icon-park-solid:surveillance-cameras-two"><g id="Mask group"><mask id="mask0_141_223" style="mask-type:luminance" width="43" height="32" x="2" y="7" maskUnits="userSpaceOnUse"><g id="Group"><g id="Group_2"><path id="Vector" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M19.006 26.2761V37.0001H5M42.62 21.2151L38.757 20.1801L34.754 27.3901L40.55 28.9431L42.62 21.2151Z"/><path id="Vector_2" fill="#fff" stroke="#fff" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M38.757 20.18L34.754 27.39L33.012 30.029L5 22.523L8.623 9L40.5 17.541L38.757 20.18Z"/></g></g></mask><g mask="url(#mask0_141_223)"><path id="Vector_3" fill="#1E1E1E" fill-opacity=".85" d="M0 0H48V48H0V0Z"/></g></g></g></svg>
