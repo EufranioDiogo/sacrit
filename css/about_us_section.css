@@ -59,6 +59,7 @@
   flex-direction: column;
   gap: 0.5rem 0;
   position: relative;
+  width: 20rem;
 }
 
 .about-us-squad-element--img {
