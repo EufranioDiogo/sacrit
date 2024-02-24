@@ -157,8 +157,6 @@
   cursor: default;
 }
 
-.about-us-timeline--item-container--top-container {}
-
 .about-us-timeline--item-year, .about-us-timeline--item-year::after {
   font-size: 4.8rem;
   color: #076df3bb;
